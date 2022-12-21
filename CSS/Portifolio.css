@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Cabeçalh*/
+body{
+    background-color: #e3ebef;
+}
+
+header{    
+    background-color: #293b5d;    
+    color: white;
+    width: 99vw;
+    height: 10vh;
+}
+
+#Side_Bar{
+    width: 75%;
+    height: 100%;
+    margin: auto;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Logo_Side_Bar img{
+    width: 120px;
+}
+
+#Side_Bar_Menu{
+    display: flex;
+}
+
+.Ancor_Side_Bar{
+    font-size: 18px;
+    display: flex;
+    margin: 20px;
+}
+
+.Ancor_Side_Bar a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    
+    display: inline;
+}
+
+#Block_Home{
+   
+    display: flex;
+}
+
+#container{
+    width: 99vw;
+    height: 90vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#Info{
+    height: 30%;
+    position: relative;
+    left: 42%;
+    top: 50%;
+}
+
+#img_Perfil {
+    position: relative;
+    top: 2%;
+    background-color: antiquewhite;
+}
+
+#Img_Perfil img{
+    width: 350px;
+}
+
+#Block_Sobre{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+}
+
+#Block_Certificados{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+}
+
+#Block_Projetos{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-color: bisque;
+}
+
+#Block_Skills{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+}
+
+#Img_Perfil{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
