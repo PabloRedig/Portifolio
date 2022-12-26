@@ -3,7 +3,8 @@
     padding: 0;
     border: 0;
 }
-/*Cabeçalh*/
+
+/*Cabeçalho*/
 body{
     background-color: #e3ebef;
 }
@@ -42,7 +43,9 @@ header{
     color: white;
     text-decoration: none;
 }
+/*Cabeçalho*/
 
+/*Corpo*/
 main{
     
     display: inline;
@@ -58,32 +61,99 @@ main{
     height: 90vh;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
+    position: relative;
+}
+
+#Background_1{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    transform: rotate(90deg)
+}
+
+#Background_1 img{
+    width: 400px;
+
+}
+
+#Background_2{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    transform: rotate(270deg)
+}
+
+#Background_2 img{
+    width: 400px;
+
 }
 
 #Info{
-    height: 30%;
-    position: relative;
-    left: 42%;
+    width: 45%;
+    position: absolute;
     top: 50%;
+    left: 49%;
 }
 
-#img_Perfil {
-    position: relative;
-    top: 2%;
-    background-color: antiquewhite;
+#Img_Perfil{
+    position: absolute;
+    left: 20%;
+    top: 16.1%;
 }
 
 #Img_Perfil img{
-    width: 350px;
+    width: 360px;
 }
 
 #Block_Sobre{
     width: 99vw;
     height: 100vh;
-    display: flex;
-    background-color: aqua;
 }
+
+#Instituicao{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+
+
+#ImgEstacio img{
+    width: 400px;
+}
+
+#Formacoes{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 12%;
+    left: 10%;
+}
+
+#ImgFormatura img{
+    width: 300px;
+}
+
+#Interesses{
+    width: 80%;
+    height: 25%;
+    display: flex;    
+    align-items: center;
+    position: relative;    
+    top: 19%;
+    left: 10%;
+}
+
+
+#ImgInteresses img{
+    width: 200px;
+}
+
 
 #Block_Certificados{
     width: 99vw;
@@ -106,8 +176,6 @@ main{
     background-color: aquamarine;
 }
 
-#Img_Perfil{
-    position: absolute;
-    left: 20%;
-    top: 25%;
-}
+
+
+/*Corpo*/
