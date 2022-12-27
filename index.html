@@ -112,7 +112,54 @@
         </div>
 
         <div id="Block_Certificados">
-            <h1>Meus Certificados</h1> 
+            <div class="boxTeste">
+                <div id="imgEstacioDiploma">
+                    <img src="Imgs/LogoEstacio.png" alt="Erro...">
+                </div>
+                    
+                    <span>Bacharel em Sistema de Informação</span>
+                    
+                    <button id="myBtn">Detalhes</button>
+
+                    <div  class="modal" id="myModal">
+
+                        <div class="modal-content">
+                            <span class="close"></span>
+                            <div id="imgDiplomaEstacio">
+                            <img id="ModalDiploma" src="Imgs/DiplomaEstacio.png" alt="Erro...">
+                            </div>
+
+                            <div id="textDiplomaEstacio">
+                                <span>
+                                    Bolo é um alimento à base de farinha, geralmente doce e cozido no forno.
+                                    bolos são um dos componentes principais das festas, como as de aniversário e casamento,
+                                    por vezes ornamentados artisticamente e ocupando o lugar central da mesa.
+                                </span> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <script>
+                        var modal = document.getElementById("myModal");
+                        var btn = document.getElementById("myBtn");
+                        var span = document.getElementsByClassName("close")[0];
+
+                        btn.onclick = function() {
+                            modal.style.display = "block";
+                        }
+
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                    </script>
+            </div>
+            
         </div>
 
         <div id="Block_Projetos">

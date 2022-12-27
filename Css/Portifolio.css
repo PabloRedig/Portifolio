@@ -46,13 +46,11 @@ header{
 /*Cabeçalho*/
 
 /*Corpo*/
-main{
-    
+main{    
     display: inline;
 }
 
-#Block_Home{
-   
+#Block_Home{   
     display: flex;
 }
 
@@ -120,7 +118,6 @@ main{
     left: 10%;
 }
 
-
 #ImgEstacio img{
     width: 400px;
 }
@@ -149,19 +146,68 @@ main{
     left: 10%;
 }
 
-
 #ImgInteresses img{
     width: 200px;
 }
-
 
 #Block_Certificados{
     width: 99vw;
     height: 100vh;
     display: flex;
-    background-color: aquamarine;
 }
 
+.boxTeste button{
+    width: 100px;
+    height: 30px;
+}
+
+#imgEstacioDiploma img{
+    width: 300px;
+}
+
+
+/*Fundo modal*/
+
+#myBtn{
+    border-radius: 10px;
+    color: white;
+    background-color: #293b5d;
+}
+.modal {
+    position: fixed; 
+    top: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+/* Modal  */
+.modal-content {    
+    position: relative;
+    top: 9%;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 20px;     
+    border-radius: 20px;  
+    background-color: #fefefee0;
+  }
+
+#imgDiplomaEstacio{    
+    padding: 15px;
+}
+
+#imgDiplomaEstacio img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 650px;
+}
+
+#textDiplomaEstacio{
+    font-size: 20px;
+}
+  
 #Block_Projetos{
     width: 99vw;
     height: 100vh;
@@ -178,4 +224,4 @@ main{
 
 
 
-/*Corpo*/
+/*Corpo*/ 
