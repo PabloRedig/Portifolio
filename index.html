@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/Portifolio.css">
+    <script src="js/scripts.js" defer></script>
     <title>Portifolio</title>
 </head>
 <body>
@@ -115,49 +116,32 @@
             <div class="boxTeste">
                 <div id="imgEstacioDiploma">
                     <img src="Imgs/LogoEstacio.png" alt="Erro...">
-                </div>
-                    
+                </div>                    
                     <span>Bacharel em Sistema de Informação</span>
                     
-                    <button id="myBtn">Detalhes</button>
+                    <button id="open-modal">Detalhes</button>
 
-                    <div  class="modal" id="myModal">
+                    <div id="fade" class="hide"></div>
+                    <div id="modal"class="hide" >
+                        <div class="modal-header">
+                            <h2>modal</h2>
 
-                        <div class="modal-content">
-                            <span class="close"></span>
-                            <div id="imgDiplomaEstacio">
-                            <img id="ModalDiploma" src="Imgs/DiplomaEstacio.png" alt="Erro...">
-                            </div>
-
-                            <div id="textDiplomaEstacio">
-                                <span>
-                                    Bolo é um alimento à base de farinha, geralmente doce e cozido no forno.
-                                    bolos são um dos componentes principais das festas, como as de aniversário e casamento,
-                                    por vezes ornamentados artisticamente e ocupando o lugar central da mesa.
-                                </span> 
-                            </div> 
+                            <button id="close-modal"> Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti nemo odit 
+                                autem inventore, exercitationem fugiat odio, tenetur totam, eveniet ipsum explicabo 
+                                blanditiis quaerat. Aperiam nisi magnam repellendus est illo!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti nemo odit 
+                                autem inventore, exercitationem fugiat odio, tenetur totam, eveniet ipsum explicabo 
+                                blanditiis quaerat. Aperiam nisi magnam repellendus est illo!
+                            </p>
                         </div>
                     </div>
-
-                    <script>
-                        var modal = document.getElementById("myModal");
-                        var btn = document.getElementById("myBtn");
-                        var span = document.getElementsByClassName("close")[0];
-
-                        btn.onclick = function() {
-                            modal.style.display = "block";
-                        }
-
-                        span.onclick = function() {
-                            modal.style.display = "none";
-                        }
-
-                        window.onclick = function(event) {
-                            if (event.target == modal) {
-                                modal.style.display = "none";
-                            }
-                        }
-                    </script>
+                   
             </div>
             
         </div>
