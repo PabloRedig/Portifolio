@@ -183,20 +183,6 @@ main{
     width: 800px;
 }
 
-#Block_Projetos{
-    width: 99vw;
-    height: 100vh;
-    display: flex;
-    background-color: bisque;
-}
-
-#Block_Skills{
-    width: 99vw;
-    height: 100vh;
-    display: flex;
-    background-color: aquamarine;
-}
-
 /*Modal*/
 
 #open-modal{
@@ -252,7 +238,6 @@ main{
     border-radius: .5rem;
 }
 
-
 .modal-header{
     display: flex;
     justify-content: space-between;
@@ -274,3 +259,54 @@ main{
 
 /*Modal*/
 
+/*
+    Bloco Projetos
+*/
+#Block_Projetos{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Projetos{    
+    padding: 2rem;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .40rem;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#imgAgro img {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.Projetos a{
+    text-decoration: none;
+    margin-top: .8rem;
+    padding: .5rem 1rem;
+    background-color: #293b5d;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    opacity: .9;
+    font-size: 1.1rem;
+
+}
+/*
+    Bloco Projetos
+*/
+
+#Block_Skills{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+}
