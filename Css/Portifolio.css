@@ -111,7 +111,7 @@ main{
 .Sobre{
     padding: 2rem;
     width: auto;
-    max-width: 80%;
+    max-width: 70%;
     margin: 2rem auto;
     display: flex;
     align-items: center;
@@ -135,7 +135,7 @@ main{
 }
 
 #ImgFormatura img{
-    width: 300px;
+    width: 200px;
 }
 
 #Interesses{
@@ -145,10 +145,6 @@ main{
 
 #ImgInteresses img{
     width: 200px;
-}
-
-#imgEstacioDiploma img{
-    width: 300px;
 }
   
 #Block_Certificados{
@@ -169,6 +165,10 @@ main{
     border-radius: .40rem;
     background-color: rgba(255, 255, 255, 0.438);
 
+}
+
+#imgEstacioDiploma img{
+    width: 300px;
 }
 
 .Block_info span{
