@@ -108,14 +108,21 @@ main{
     height: 100vh;
 }
 
-#Instituicao{
-    width: 80%;
-    height: 25%;
+.Sobre{
+    padding: 2rem;
+    width: auto;
+    max-width: 80%;
+    margin: 2rem auto;
     display: flex;
     align-items: center;
-    position: relative;
-    top: 5%;
-    left: 10%;
+    flex-direction: column;
+    border-radius: .40rem;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+#Instituicao{   
+    display: flex;
+    align-items: center;   
 }
 
 #ImgEstacio img{
@@ -123,13 +130,8 @@ main{
 }
 
 #Formacoes{
-    width: 80%;
-    height: 25%;
     display: flex;
     align-items: center;
-    position: relative;
-    top: 12%;
-    left: 10%;
 }
 
 #ImgFormatura img{
@@ -137,13 +139,8 @@ main{
 }
 
 #Interesses{
-    width: 80%;
-    height: 25%;
-    display: flex;    
+    display: flex;
     align-items: center;
-    position: relative;    
-    top: 19%;
-    left: 10%;
 }
 
 #ImgInteresses img{
@@ -262,6 +259,7 @@ main{
 /*
     Bloco Projetos
 */
+
 #Block_Projetos{
     width: 99vw;
     height: 100vh;
@@ -281,7 +279,6 @@ main{
     background-color: rgb(255, 255, 255);
 }
 
-
 #imgAgro img {
     margin-top: 20px;
     width: 250px;
@@ -300,13 +297,49 @@ main{
     font-size: 1.1rem;
 
 }
+
 /*
     Bloco Projetos
+*/
+
+/*
+    Bloco Skills    
 */
 
 #Block_Skills{
     width: 99vw;
     height: 100vh;
     display: flex;
-    background-color: aquamarine;
+    justify-content: space-evenly;    
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.Skills{
+    padding: 2rem;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .40rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#imgSkill img{
+    width: 150px;
+    margin: .5rem;
+}
+
+.Skills h2{
+    width: 120px;
+    text-align: center;
+}
+
+footer{    
+    background-color: #293b5d; 
+    color: white;
+    display: flex;
+    justify-content: center;
 }
