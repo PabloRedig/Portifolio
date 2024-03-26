@@ -1,0 +1,11 @@
+.container{
+    width: 100vw;    
+    height: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+    background-color: #293B5D;
+}

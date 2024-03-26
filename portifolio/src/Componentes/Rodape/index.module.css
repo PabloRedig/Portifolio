@@ -1,0 +1,22 @@
+.container{
+    width: 100vw;
+    height: 40px;   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+    color: #fff;
+    background-color: #293B5D;
+ 
+}
+
+.blocoContato{
+    margin: 0 40px;
+}
+
+.Desenvolvido{
+    margin: 0 40px;
+}
