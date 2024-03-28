@@ -1,12 +1,13 @@
 import React from 'react'
 import style from './index.module.css'
+import LogoEmail from './Img/LogoEmail.png'
 
 export default function Rodape() {
   return (
     <>
       <div className={style.container}>
         <div className={style.blocoContato}>
-          <img src="" alt="logo-Email" />
+          <img src={LogoEmail} alt="logo-Email" />
           <label> pabloredigmrv@gmail.com</label>
         </div>
 

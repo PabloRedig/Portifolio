@@ -1,0 +1,30 @@
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+
+}
+
+.BlocoTexto{
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+
+.BlocoTexto P{
+    font-size: 32px;
+}
+
+.btnSobreMin{
+    width: 300px;
+    height: 70px;
+    font-size: 32px;
+    border-radius: .5em;
+    border: none;
+    color: #fff;
+    background-color: #293B5D;
+}

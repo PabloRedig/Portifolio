@@ -1,17 +1,21 @@
 import React from 'react'
-import Cabecalho from '../../Componentes/Cabecalho'
-import Rodape from '../../Componentes/Rodape'
+import { Link } from 'react-router-dom'
+import ImgHome from "./Imgs/ImgHome.svg"
+import style from './index.module.css'
 
 export default function Home() {
   return (
     <>
-      <div>
-        <section>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, autem voluptatibus, aperiam aut odio commodi cupiditate a aliquam voluptatum rem impedit natus odit ea maiores eligendi tempore, quis eius ipsa.</p>
+      <div className={style.container}>
+        <section className={style.BlocoTexto}>
+          
+            <p>Olá, me chamo PABLO sou desenvolvedor web e seja bem vindo ao meu Portifólio</p>
+        
+          <Link to="/Sobre"><button className={style.btnSobreMin}>Sobre Mim</button></Link>
         </section>
 
-        <section>
-          <img src="" alt="ImgCorpo" />
+        <section className={style.BlocoImg}>
+          <img src={ImgHome} alt="ImgProjetando" />
         </section>
       </div>
     </>

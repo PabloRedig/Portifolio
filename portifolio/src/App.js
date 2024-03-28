@@ -1,19 +1,27 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import React from 'react'
-import Home from './Pags/Home'
-import Sobre from './Pags/Projetos'
-import Projetos from './Pags/Sobre'
 import Cabecalho from './Componentes/Cabecalho'
 import Rodape from './Componentes/Rodape'
+import Home from './Pags/Home'
+import Sobre from './Pags/Sobre'
+import Projeto from './Pags/Projetos'
 
 export default function App() {
   return (
-    <>
+
+    <BrowserRouter>
+
       <Cabecalho />
-      <Home />
-      <Projetos />
-      <Sobre />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Projeto" element={<Projeto />} />
+      </Routes>
+
       <Rodape />
-    </>
+    </BrowserRouter>
   )
 }
 

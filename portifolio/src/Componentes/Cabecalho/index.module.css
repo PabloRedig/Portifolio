@@ -1,11 +1,36 @@
-.container{
-    width: 100vw;    
+.container {
+    width: 100vw;
     height: 110px;
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;    
 
-    color: #fff;
     background-color: #293B5D;
+}
+
+.NavMenu {
+    width: 100%;
+    margin: 0px 120px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.nav {
+    display: flex;
+}
+
+.item {
+    margin-left: 1.5em;
+}
+
+.item p {
+    font-size: 24px;
+    color: #fff;
 }
