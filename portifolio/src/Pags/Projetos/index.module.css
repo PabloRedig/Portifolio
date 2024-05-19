@@ -1,3 +1,101 @@
+.BlocoPag{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin: 60px 0;
+    background-color: black;
+}
+
+.TituloPag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 110px;
+    width: auto;
+    padding: 0 13px;
+    height: 50px;
+    margin: 5px;
+    font-size: 32px;
+    border-radius: .5em;
+
+    color: #fff;
+    background-color: #293B5D;
+}
+
+.BlocoGeral{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
 .container{
-    background-color: aquamarine;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    padding-top: 10px;
+    
+    border-radius: .5em;
+    color: #fff;
+    background-color: #293B5D;
+}
+
+.imgSite{ 
+    border-radius: .5em;
+    border: 2px solid white;
+    width: 90%;
+}
+
+.divisoria{
+    position: absolute;
+    top: 255px;
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.BlocoInfo{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    font-size: 20px;
+
+}
+
+.BlocoBtn{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: .5em;
+    font-size: 18px;
+
+    
+}
+
+.btn a{
+    color: #000;
 }

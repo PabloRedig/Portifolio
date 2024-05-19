@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgPerfil from './Img/FotoPerfil.svg'
+import ImgPerfil from './Img/FotoPerfil.png'
 import style from './index.module.css'
 
 export default function Sobre() {
